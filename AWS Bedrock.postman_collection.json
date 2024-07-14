@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "509fa4aa-7a5f-41e2-9687-eefc7a9866f3",
+		"name": "AWS Bedrock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "108616"
+	},
+	"item": [
+		{
+			"name": "Code Generation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"language\": \"python\", \n   \"message\": \"implement binary search\" \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://3qt38awgmg.execute-api.us-east-1.amazonaws.com/dev/code-generation",
+					"protocol": "https",
+					"host": [
+						"3qt38awgmg",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"code-generation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Meeting Summary",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"language\": \"python\", \n   \"message\": \"implement binary search\" \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://3qt38awgmg.execute-api.us-east-1.amazonaws.com/dev/code-generation",
+					"protocol": "https",
+					"host": [
+						"3qt38awgmg",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"code-generation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Image Generation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"message\": \"implement binary search\" \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://3qt38awgmg.execute-api.us-east-1.amazonaws.com/dev/image_generation",
+					"protocol": "https",
+					"host": [
+						"3qt38awgmg",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"image_generation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empty",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://3qt38awgmg.execute-api.us-east-1.amazonaws.com/dev/empty",
+					"protocol": "https",
+					"host": [
+						"3qt38awgmg",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"empty"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
